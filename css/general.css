@@ -9,5 +9,5 @@ body {
     background: rgb(173, 216, 230);
 }
 body * {
-  transition: all .9s;
+  transition: all .7s .2s;
 }
