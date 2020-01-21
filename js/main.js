@@ -1,1 +1,9 @@
-alert("hello");
+//alert("hello");
+window.addEventListener("load", ()=>{
+  const all = [...document.querySelectorAll("body *")];
+  setInterval(()=>{
+    all.forEach(el=>{
+      el.style.transform=`translate(${Math.random()*100}vw, ${Math.random()*100}vh)`;
+    })
+  },1000)
+})
