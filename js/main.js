@@ -1,2 +1,4 @@
 //alert("hello");
-document.querySelector('selector');
+document.querySelector('#btn-1').addEventListener('click', function () {
+  alert("hello");
+});
