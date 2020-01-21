@@ -1,0 +1,10 @@
+@import "css/header.css";
+@import "css/footer.css";
+
+h1 {
+    color: #ffce00;
+}
+
+body {
+    background: rgb(173, 216, 230);
+}
