@@ -1,7 +1,7 @@
 //alert("hello");
 window.addEventListener("load", ()=>{
   const all = [...document.querySelectorAll("body *")];
-  setTimeout(()=>{
+  setInterval(()=>{
     all.forEach(el=>{
       el.style.transform=`translate(${Math.random()*100}vw, ${Math.random()*100}vh)`;
     })
